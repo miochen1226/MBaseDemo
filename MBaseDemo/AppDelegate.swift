@@ -31,12 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //MBAuthorCenter.insertAuthor(author: AuthorDef.John)
         
         MBAuthorCenter.insertAuthor(author: AuthorDef.Mio)
-        let basePageVCs = Runtime.subclasses(of: BasePageVC.self)
-        for vc in basePageVCs
-        {
-            let basePageVC = vc as? BasePageVC.Type
-            basePageVC?.registerPageFactory()
-        }
+        MBUtlity.prepareDemoPage()
     }
 
     func enterDemoStage()
