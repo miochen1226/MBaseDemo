@@ -33,7 +33,7 @@
 		353CE5C824640343000A058D /* AuthorDef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353CE5B024640343000A058D /* AuthorDef.swift */; };
 		353CE5C924640343000A058D /* UIDataProviderDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 353CE5B224640343000A058D /* UIDataProviderDemoVC.xib */; };
 		353CE5CA24640343000A058D /* UIDataProviderDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353CE5B324640343000A058D /* UIDataProviderDemoVC.swift */; };
-		35CCC0F324654E1C0053EB0F /* Pods_MBaseDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF920EC80481CB282972563E /* Pods_MBaseDemo.framework */; };
+		4A9013D14ABBF046C0305AD0 /* Pods_MBaseDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E15BC40F5F3DFDBCB9375D3 /* Pods_MBaseDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,7 +67,7 @@
 		353CE5B324640343000A058D /* UIDataProviderDemoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDataProviderDemoVC.swift; sourceTree = "<group>"; };
 		929FA03AEBE1F2915B052DB9 /* Pods-MBaseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBaseDemo.release.xcconfig"; path = "Target Support Files/Pods-MBaseDemo/Pods-MBaseDemo.release.xcconfig"; sourceTree = "<group>"; };
 		984E2327E53F6B9544929083 /* Pods-MBaseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBaseDemo.debug.xcconfig"; path = "Target Support Files/Pods-MBaseDemo/Pods-MBaseDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		BF920EC80481CB282972563E /* Pods_MBaseDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBaseDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E15BC40F5F3DFDBCB9375D3 /* Pods_MBaseDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBaseDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35CCC0F324654E1C0053EB0F /* Pods_MBaseDemo.framework in Frameworks */,
+				4A9013D14ABBF046C0305AD0 /* Pods_MBaseDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +250,7 @@
 		58C9F96F753251891A460B68 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF920EC80481CB282972563E /* Pods_MBaseDemo.framework */,
+				9E15BC40F5F3DFDBCB9375D3 /* Pods_MBaseDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -266,7 +266,7 @@
 				353CE577246402EE000A058D /* Sources */,
 				353CE578246402EE000A058D /* Frameworks */,
 				353CE579246402EE000A058D /* Resources */,
-				CC942E16DBFA7981B8E777D7 /* [CP] Embed Pods Frameworks */,
+				2A9176FE7C597C2E99E7B1C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -284,11 +284,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1210;
 				ORGANIZATIONNAME = miochen;
 				TargetAttributes = {
 					353CE57A246402EE000A058D = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1210;
 					};
 				};
 			};
@@ -332,7 +333,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		CC942E16DBFA7981B8E777D7 /* [CP] Embed Pods Frameworks */ = {
+		2A9176FE7C597C2E99E7B1C0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -436,6 +437,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -496,6 +498,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
